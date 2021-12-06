@@ -1,0 +1,136 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "ubuntu",
+    "children" : [ {
+      "name" : "19242@ubuntu.Test worker(11)",
+      "children" : [ {
+        "name" : "someTest2()",
+        "uid" : "9581681ffcd2ef1",
+        "parentUid" : "58157e29c1bebba0091457afdc765014",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638826484331,
+          "stop" : 1638826484336,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "someTest4()",
+        "uid" : "8ad6ced0537792ac",
+        "parentUid" : "58157e29c1bebba0091457afdc765014",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638826484352,
+          "stop" : 1638826484355,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "someTest1()",
+        "uid" : "55804a47047367b2",
+        "parentUid" : "58157e29c1bebba0091457afdc765014",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638826484055,
+          "stop" : 1638826484121,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "someTest()",
+        "uid" : "6b17d16dffaa4e0d",
+        "parentUid" : "58157e29c1bebba0091457afdc765014",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638826484361,
+          "stop" : 1638826484364,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "someTest3()",
+        "uid" : "35391eb6f1c9cab9",
+        "parentUid" : "58157e29c1bebba0091457afdc765014",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1638826484343,
+          "stop" : 1638826484343,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "studentRegistrationForm()",
+        "uid" : "f8c4e273b7b7813c",
+        "parentUid" : "58157e29c1bebba0091457afdc765014",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638826484390,
+          "stop" : 1638826496387,
+          "duration" : 11997
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58157e29c1bebba0091457afdc765014"
+    }, {
+      "name" : "19408@ubuntu.Test worker(11)",
+      "children" : [ {
+        "name" : "someTest()",
+        "uid" : "f810693a779204a4",
+        "parentUid" : "c12b761dd301040867bb5e82c7298ea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638826500717,
+          "stop" : 1638826500773,
+          "duration" : 56
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c12b761dd301040867bb5e82c7298ea9"
+    } ],
+    "uid" : "fd8342d1c2e3fbb0ae3eb3c73964add6"
+  } ],
+  "name" : "timeline"
+}

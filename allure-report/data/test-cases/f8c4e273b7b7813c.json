@@ -1,0 +1,426 @@
+{
+  "uid" : "f8c4e273b7b7813c",
+  "name" : "studentRegistrationForm()",
+  "fullName" : "tests.TestBoxTest.studentRegistrationForm",
+  "historyId" : "f8e57ddcee3f561f0d99b374c9d56ce8",
+  "time" : {
+    "start" : 1638826484390,
+    "stop" : 1638826496387,
+    "duration" : 11997
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://demoqa.com/automation-practice-form",
+      "time" : {
+        "start" : 1638826484475,
+        "stop" : 1638826491088,
+        "duration" : 6613
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#firstName\") set value(Bill)",
+      "time" : {
+        "start" : 1638826491223,
+        "stop" : 1638826491691,
+        "duration" : 468
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#lastName\") set value(Funny)",
+      "time" : {
+        "start" : 1638826491691,
+        "stop" : 1638826491968,
+        "duration" : 277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#userEmail\") set value(horse@yahoo.com)",
+      "time" : {
+        "start" : 1638826491968,
+        "stop" : 1638826492338,
+        "duration" : 370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Male\") click()",
+      "time" : {
+        "start" : 1638826492351,
+        "stop" : 1638826492539,
+        "duration" : 188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#userNumber\") set value(1253643652)",
+      "time" : {
+        "start" : 1638826492539,
+        "stop" : 1638826492789,
+        "duration" : 250
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#dateOfBirthInput\") click()",
+      "time" : {
+        "start" : 1638826492789,
+        "stop" : 1638826493037,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".react-datepicker__month-select\") select option(March)",
+      "time" : {
+        "start" : 1638826493038,
+        "stop" : 1638826493241,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".react-datepicker__year-select\") select option(1990)",
+      "time" : {
+        "start" : 1638826493242,
+        "stop" : 1638826493392,
+        "duration" : 150
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".react-datepicker__day--013\") click()",
+      "time" : {
+        "start" : 1638826493393,
+        "stop" : 1638826493513,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") set value(Biology)",
+      "time" : {
+        "start" : 1638826493513,
+        "stop" : 1638826493714,
+        "duration" : 201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") press enter()",
+      "time" : {
+        "start" : 1638826493715,
+        "stop" : 1638826493852,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Sports\") scroll to()",
+      "time" : {
+        "start" : 1638826493853,
+        "stop" : 1638826493885,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Sports\") click()",
+      "time" : {
+        "start" : 1638826493885,
+        "stop" : 1638826494011,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#uploadPicture\") upload file(src/test/resources/radio.jpeg)",
+      "time" : {
+        "start" : 1638826494011,
+        "stop" : 1638826494088,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#currentAddress\") set value(Lenina street house)",
+      "time" : {
+        "start" : 1638826494088,
+        "stop" : 1638826494227,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#react-select-3-input\") set value(NCR)",
+      "time" : {
+        "start" : 1638826494227,
+        "stop" : 1638826494414,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#react-select-3-input\") press enter()",
+      "time" : {
+        "start" : 1638826494414,
+        "stop" : 1638826494537,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#react-select-4-input\") set value(Delhi)",
+      "time" : {
+        "start" : 1638826494538,
+        "stop" : 1638826494739,
+        "duration" : 201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#react-select-4-input\") press enter()",
+      "time" : {
+        "start" : 1638826494739,
+        "stop" : 1638826494873,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#submit\") click()",
+      "time" : {
+        "start" : 1638826494873,
+        "stop" : 1638826495027,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".modal-content\") should have([text 'Student Name', text 'Bill Funny', text 'Student Email', text 'horse@yahoo.com', text 'Gender', text 'Male', text 'Mobile', text '1253643652', text 'Date of Birth', text '13 March,1990', text 'Subjects', text 'Biology', text 'Hobbies', text 'Sports', text 'Picture', text 'radio.jpeg', text 'Address', text 'Lenina street house', text 'State and City', text 'NCR Delhi'])",
+      "time" : {
+        "start" : 1638826495032,
+        "stop" : 1638826496058,
+        "duration" : 1026
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e39e3f7cb0e9b5d3",
+      "name" : "Last screenshot",
+      "source" : "e39e3f7cb0e9b5d3.png",
+      "type" : "image/png",
+      "size" : 211244
+    }, {
+      "uid" : "b8a5cc1099903b09",
+      "name" : "Page source",
+      "source" : "b8a5cc1099903b09.html",
+      "type" : "text/plain",
+      "size" : 42395
+    }, {
+      "uid" : "d52fefe9d945d00d",
+      "name" : "Browser console logs",
+      "source" : "d52fefe9d945d00d.txt",
+      "type" : "text/plain",
+      "size" : 568
+    }, {
+      "uid" : "b811e8201f0f3b91",
+      "name" : "Video",
+      "source" : "b811e8201f0f3b91.html",
+      "type" : "text/html",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ubuntu"
+  }, {
+    "name" : "thread",
+    "value" : "19242@ubuntu.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.TestBoxTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.TestBoxTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "studentRegistrationForm"
+  }, {
+    "name" : "suite",
+    "value" : "tests.TestBoxTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f8c4e273b7b7813c.json",
+  "parameterValues" : [ ]
+}

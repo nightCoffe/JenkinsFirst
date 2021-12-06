@@ -1,0 +1,115 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.properties.SystemPropertiesTests",
+    "children" : [ {
+      "name" : "someTest1()",
+      "uid" : "55804a47047367b2",
+      "parentUid" : "b29f61ad8b4872007f00323d5911e1d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638826484055,
+        "stop" : 1638826484121,
+        "duration" : 66
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "someTest2()",
+      "uid" : "9581681ffcd2ef1",
+      "parentUid" : "b29f61ad8b4872007f00323d5911e1d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638826484331,
+        "stop" : 1638826484336,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "someTest3()",
+      "uid" : "35391eb6f1c9cab9",
+      "parentUid" : "b29f61ad8b4872007f00323d5911e1d5",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1638826484343,
+        "stop" : 1638826484343,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "someTest4()",
+      "uid" : "8ad6ced0537792ac",
+      "parentUid" : "b29f61ad8b4872007f00323d5911e1d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638826484352,
+        "stop" : 1638826484355,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "someTest()",
+      "uid" : "f810693a779204a4",
+      "parentUid" : "b29f61ad8b4872007f00323d5911e1d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638826500717,
+        "stop" : 1638826500773,
+        "duration" : 56
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b29f61ad8b4872007f00323d5911e1d5"
+  }, {
+    "name" : "tests.TestBoxTest",
+    "children" : [ {
+      "name" : "studentRegistrationForm()",
+      "uid" : "f8c4e273b7b7813c",
+      "parentUid" : "40eaf5508198927e38e913522fee9c13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638826484390,
+        "stop" : 1638826496387,
+        "duration" : 11997
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "40eaf5508198927e38e913522fee9c13"
+  } ],
+  "name" : "suites"
+}

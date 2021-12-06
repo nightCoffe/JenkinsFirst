@@ -1,0 +1,4 @@
+[2021-12-06T13:34:49-0800] [SEVERE] https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js - Failed to load resource: net::ERR_CONNECTION_REFUSED
+[2021-12-06T13:34:49-0800] [SEVERE] https://ad.plus/adplus-advertising.svg - Failed to load resource: net::ERR_CONNECTION_REFUSED
+[2021-12-06T13:34:49-0800] [SEVERE] https://www.googletagmanager.com/gtm.js?id=GTM-MX8DD4S - Failed to load resource: net::ERR_CONNECTION_REFUSED
+[2021-12-06T13:34:49-0800] [SEVERE] https://www.googletagservices.com/tag/js/gpt.js - Failed to load resource: net::ERR_CONNECTION_REFUSED

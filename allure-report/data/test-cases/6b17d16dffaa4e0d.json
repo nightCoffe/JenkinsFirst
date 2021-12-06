@@ -1,0 +1,62 @@
+{
+  "uid" : "6b17d16dffaa4e0d",
+  "name" : "someTest()",
+  "fullName" : "tests.properties.SystemPropertiesTests.someTest",
+  "historyId" : "b519cb1d36d76e21d5171fb58d692c11",
+  "time" : {
+    "start" : 1638826484361,
+    "stop" : 1638826484364,
+    "duration" : 3
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "prod"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu"
+  }, {
+    "name" : "thread",
+    "value" : "19242@ubuntu.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.properties.SystemPropertiesTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.properties.SystemPropertiesTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "someTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.properties.SystemPropertiesTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "prod" ]
+  },
+  "source" : "6b17d16dffaa4e0d.json",
+  "parameterValues" : [ ]
+}

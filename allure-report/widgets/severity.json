@@ -1,0 +1,61 @@
+[ {
+  "uid" : "55804a47047367b2",
+  "name" : "someTest1()",
+  "time" : {
+    "start" : 1638826484055,
+    "stop" : 1638826484121,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8c4e273b7b7813c",
+  "name" : "studentRegistrationForm()",
+  "time" : {
+    "start" : 1638826484390,
+    "stop" : 1638826496387,
+    "duration" : 11997
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9581681ffcd2ef1",
+  "name" : "someTest2()",
+  "time" : {
+    "start" : 1638826484331,
+    "stop" : 1638826484336,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35391eb6f1c9cab9",
+  "name" : "someTest3()",
+  "time" : {
+    "start" : 1638826484343,
+    "stop" : 1638826484343,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f810693a779204a4",
+  "name" : "someTest()",
+  "time" : {
+    "start" : 1638826500717,
+    "stop" : 1638826500773,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ad6ced0537792ac",
+  "name" : "someTest4()",
+  "time" : {
+    "start" : 1638826484352,
+    "stop" : 1638826484355,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
