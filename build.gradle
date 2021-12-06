@@ -7,9 +7,10 @@ repositories {
     mavenCentral()
 }
 
-def allureVersion = "2.16.0",
+def allureVersion = "2.14.0",
     selenideVersion = "5.24.0",
     junitVersion = "5.8.1"
+
 
 allure {
     version = allureVersion
@@ -27,6 +28,7 @@ dependencies {
             "com.codeborne:selenide:$selenideVersion",
             "io.qameta.allure:allure-selenide:$allureVersion",
             "com.github.javafaker:javafaker:1.0.2",
+            "org.aeonbits.owner:owner:1.0.12",
             "org.junit.jupiter:junit-jupiter-api:$junitVersion")
     testRuntimeOnly(
             "org.slf4j:slf4j-simple:1.7.29",
@@ -38,6 +40,8 @@ tasks.withType(JavaCompile) {
 }
 
 tasks.withType(Test) {
+//    systemProperty("environment", System.getProperty("environment", "stage")) // preprod, prod
+
     systemProperties(System.getProperties())
     useJUnitPlatform()
 
@@ -51,9 +55,7 @@ tasks.withType(Test) {
 }
 
 task properties_tests(type: Test) {
-//    systemProperty("browserSize", System.getProperty("browserSize", "400x400"))
-//    systemProperty("environment", System.getProperty("environment", "stage"))
-
+    systemProperty("browserSize", System.getProperty("browserSize", "400x400"))
     useJUnitPlatform {
         includeTags "properties"
     }
@@ -65,5 +67,4 @@ task many_tags_tests(type: Test) {
         includeTags "smoke"
         excludeTags "prod"
     }
-
 }
